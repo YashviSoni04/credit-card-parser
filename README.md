@@ -19,7 +19,8 @@ Extract key information from credit card statements instantly with this React ap
 ## Demo
 
 > Screenshot or GIF goes here (optional)
-<img width="1871" height="1129" alt="image" src="https://github.com/user-attachments/assets/a816bc57-e690-4f43-b12e-b6e09e3e79d8" />
+<img width="1750" height="1055" alt="image" src="https://github.com/user-attachments/assets/cd1c2ee8-eae2-489d-89d8-e73fdfb5f503" />
+
 
 
 ## Installation
