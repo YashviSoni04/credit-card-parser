@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Credit Card Statement Parser
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Extract key information from credit card statements instantly with this React app. Everything happens **locally in your browser**—your data never leaves your machine.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Supports major card issuers: **American Express, Chase, Citibank, Capital One, Discover**  
+- Extracts important data points:
+  - Last 4 digits of the card
+  - Billing cycle
+  - Payment due date
+  - Total balance
+  - Minimum payment
+- Upload **PDF statements** only  
+- Clean, responsive UI with **TailwindCSS**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+> Screenshot or GIF goes here (optional)
+<img width="1871" height="1129" alt="image" src="https://github.com/user-attachments/assets/a816bc57-e690-4f43-b12e-b6e09e3e79d8" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repo:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+git clone https://github.com/YOUR_USERNAME/credit-card-parser.git
+cd credit-card-parser
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies:
+npm install
 
-### `npm run eject`
+3. Run the app:
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Open http://localhost:3000 in your browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Usage
+1. Click on the upload area
+2. Select a PDF statement from your supported card issuer
+3. Wait a few seconds for parsing
+4. View extracted information instantly
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Tech Stack
+1. React.js
+2. TailwindCSS
+3. Lucide React Icons
+4. PostCSS & Autoprefixer
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Notes
+1. Currently supports PDFs only
+2. Parsing is basic—some PDFs with unusual formats may not extract correctly
+3. Data is processed locally; no external API calls
